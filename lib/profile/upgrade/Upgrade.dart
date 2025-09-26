@@ -63,6 +63,7 @@ class Upgrade extends StatelessWidget{
                 child: ElevatedButton(onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (_) => Payment()));
                 },
+
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue,
                     //padding: EdgeInsets.symmetric(vertical: 16),
