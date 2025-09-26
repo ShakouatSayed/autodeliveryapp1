@@ -15,7 +15,7 @@ class OrderPage extends StatefulWidget{
 class _OrderPageState extends State<OrderPage>{
   static final CameraPosition _pGooglePlex = CameraPosition(
       target: LatLng(23.797911, 90.414391),
-      zoom: 11.4746,
+      zoom: 5.4746,
   );
   @override
   Widget build(BuildContext context){
